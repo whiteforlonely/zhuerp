@@ -16,7 +16,7 @@ import javax.mail.internet.MimeMessage.RecipientType;
 public class SendMailTest {
 	
 	private String userName = "15159816517@163.com";
-	private String password = "MeiLan1126";
+	private String password = "xxxxxxx";
 	private String sendHost = "smtp.163.com";
 
 	Session session ;
