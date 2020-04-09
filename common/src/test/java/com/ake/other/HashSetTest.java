@@ -1,4 +1,4 @@
-package com.ake.mail;
+package com.ake.other;
 
 import java.util.HashSet;
 
