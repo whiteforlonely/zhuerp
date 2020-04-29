@@ -59,7 +59,7 @@ public class JavaToProto {
 					if (null != fields && fields.length > 0) {
 						for (Field field : fields) {
 							String fieldName = field.getName();
-							if (fieldName.contains("FIELD_NUMBER") || fieldName.equals("PARSER") || fieldName.contains("DEFAULT_INSTANCE") || fieldName.contains("serialVersionUID") || fieldName.equals("memoizedIsInitialized")) {
+							if (fieldName.contains("FIELD_NUMBER") || fieldName.equals("PARSER") || fieldName.contains("DEFAULT_INSTANCE") || fieldName.contains("serialVersionUID") || fieldName.equals("memoizedIsInitialized") || fieldName.contains("bitField0")) {
 								continue;
 							}
 							System.out.println("field: " + field.getName().replace("_", "") + ", type: " + field.getType());
